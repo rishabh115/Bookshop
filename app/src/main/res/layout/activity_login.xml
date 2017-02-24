@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/stroke_bg"
+    android:gravity="center_horizontal|center_vertical"
+
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/layouttv"
+        android:background="#FFF"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_weight="2"
+            android:textSize="20dp"
+            android:id="@+id/tvOwner"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textColor="#d130fe"
+            android:text="Owner"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:id="@+id/tvEmployee"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:background="#d130fe"
+            android:text="Employee"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:background="#fff"
+        android:id="@+id/rlayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvusername"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp" />
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:id="@+id/btok"
+            android:textColor="#d130fe"
+            android:background="@android:color/transparent"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textStyle="bold"
+            android:textColor="#d130fe"
+            android:id="@+id/btcancel"
+            android:background="@android:color/transparent"
+            android:layout_alignTop="@+id/btok"
+            android:layout_toLeftOf="@+id/btok"
+            android:layout_toStartOf="@+id/btok" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:ems="12"
+            android:singleLine="true"
+            android:nextFocusDown="@+id/etpassword"
+            android:id="@+id/etuser"
+            android:layout_below="@+id/tvusername"
+            android:layout_alignLeft="@+id/tvusername"
+            android:layout_alignStart="@+id/tvusername" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:id="@+id/tvpassword"
+
+            android:layout_below="@+id/etuser"
+            android:layout_alignLeft="@+id/etuser"
+            android:layout_alignStart="@+id/etuser" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="12"
+            android:hint="Password"
+            android:id="@+id/etpassword"
+            android:layout_below="@+id/tvpassword"
+            android:layout_alignLeft="@+id/tvpassword"
+            android:layout_alignStart="@+id/tvpassword" />
+
+    </RelativeLayout>
+</LinearLayout>

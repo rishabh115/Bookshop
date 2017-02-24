@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cdc9c9"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="List"
+        android:textStyle="bold"
+        android:id="@+id/tvList"
+        android:typeface="serif"
+        android:textSize="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:id="@+id/bClear"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_alignBottom="@+id/tvList"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <ListView
+        android:layout_below="@+id/bClear"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/stroke_bg"
+        android:id="@+id/lvcart">
+
+    </ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="Total is :"
+        android:id="@+id/textView4"
+        android:textSize="10pt"
+        android:layout_below="@+id/lvcart" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEND RECEIPT"
+        android:id="@+id/bSend"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView4"
+        />
+
+</RelativeLayout>

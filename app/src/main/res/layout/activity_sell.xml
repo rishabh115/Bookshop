@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cdc9c9"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:id="@+id/ins"
+        android:layout_centerHorizontal="true"
+        android:text="Select the category of book"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:outlineProvider="paddedBounds"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+      />
+
+    <ExpandableListView
+        android:layout_below="@+id/ins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvExp"
+        android:layout_weight="1"
+        android:childIndicator="@drawable/bk"
+        android:divider="#ef5350"
+        android:dividerHeight="3dp"
+        android:groupIndicator="@mipmap/grp_ind"
+        android:childIndicatorLeft="@dimen/activity_horizontal_margin"
+        />
+</RelativeLayout>

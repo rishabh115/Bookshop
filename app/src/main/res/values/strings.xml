@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Bookshop</string>
+    <string-array name="operations">
+        <item>Home</item>
+        <item>Sell</item>
+        <item>Add</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="home"> 1. Open <b><i>HOME</i></b> to see the book stock .</string>
+    <string name="sell"> 2. Click <b><i>SELL</i></b> to sell the book .</string>
+    <string name="add"> 3. Click <b><i>ADD</i></b> to add the book to stock .</string>
+    <string name="cart"> 4. Open <b><i>CART</i></b> to see complete transaction . </string>
+    <string name="text">1. Open <b><i>HOME</i></b> to see the book stock ."\n""\n"2. Click <b><i>SELL</i></b> to sell the book ."\n""\n"3. Click <b><i>ADD</i></b> to add the book to stock ."\n""\n"4. Open <b><i>CART</i></b> to see complete transaction .</string>
+    <string name="about">This is a project on BookShop Automation."\n"It aims at automating all the operations in a BookShop ."\n"<b>Developed by :</b>"\n"<u>Rishabh Maurya</u>"\n"<b>Database designed by :</b>"\n"<u>Anand Gupta ,Satish Gupta</u>"\n"<b>Layout designed by :</b>"\n"<u>Ramlakhan Singh ,ChanderRaj Singh</u>
+        "\n"<b>Debugged by :</b>"\n"<u> Nikhil Kumar</u>
+    </string>
+</resources>
